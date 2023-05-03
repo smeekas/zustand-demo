@@ -1,0 +1,42 @@
+.list {
+    /* min-width: 500px; */
+    max-width: 700px;
+}
+
+.todo {
+    display: flex;
+    /* border: 1px solid red; */
+    align-items: center;
+    justify-content: space-between;
+    height: fit-content;
+    /* margin-bottom: 0.5rem; */
+    transition: all 0.1s linear;
+    cursor: pointer;
+    border-bottom: 1px solid white;
+    color: white;
+    background-color: #24273d;
+    padding: 0 1rem;
+    /* border-radius: 4px; */
+}
+
+.todo:hover {
+    background-color: #2d2d72;
+}
+
+.name {
+    /* flex:1; */
+    max-width: 90%;
+    overflow-y: hidden;
+    text-overflow: ellipsis;
+    overflow-x: hidden;
+
+}
+
+.delete {
+    font-size: 2rem;
+    transition: all 0.1s linear;
+}
+
+.delete:hover {
+    color: red;
+}
