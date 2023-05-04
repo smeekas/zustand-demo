@@ -4,7 +4,7 @@
 ### advantages of zustand
  -  Very simple to understand. It feels like a regular JS.
  -  Less to no boilerplate code.
- - No need of any context wrapper.
+ - No need of any context provider wrapper.
  - Can inform component transiently.
  - lightweight @282 KB ( redux-toolkit @12.9 MB,   mobX: @3.99 MB )
  
