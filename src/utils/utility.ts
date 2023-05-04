@@ -3,6 +3,6 @@ import { useInfo } from "../store/info";
 
 export function callutil() {
     console.log(getState().user)
-    setState({ user: "from utils" })
-    // console.log();
+    getState().setUser("from utils")
+    // setState({ user: "from utils" })
 }

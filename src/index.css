@@ -45,3 +45,19 @@ h1 {
     background-color: #f9f9f9;
   }
 }
+
+.colorful{
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+.fetchedTodoList{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+.fetchedTodo{
+  border: 1px solid black;
+  padding: 0.2rem 0.5rem;
+}

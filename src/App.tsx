@@ -41,7 +41,6 @@ function App() {
         <input ref={inputRef} className="input" type="text" />
         <button className='btn' onClick={() => addHandler()}>add it!!</button>
       </div>
-      {/* <button onClick={() => store.fetchTodos()}>click it!</button> */}
       <TodoList />
       <h2>Count: {infoStore.count}</h2>
     </div>
